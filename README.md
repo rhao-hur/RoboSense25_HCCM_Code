@@ -4,12 +4,10 @@
 [![Competition](https://img.shields.io/badge/RoboSense-Track%20%234-blue)](https://robosense2025.github.io/track4)
 [![GitHub](https://img.shields.io/badge/Official--Code-rhao--hur/HCCM-green)](https://github.com/rhao-hur/HCCM)
 
----
 
 This is the code implementation of our `HCCM` algorithm for the [RoboSense Challenge 2025 - Track #4: Cross-Modal Drone Navigation](https://robosense2025.github.io/track4).
 
 For a detailed description of the `HCCM` algorithm, please refer to our ACM MM 2025 paper: **"HCCM: Hierarchical Cross-Granularity Contrastive and Matching Learning for Natural Language-Guided Drones"**. The official implementation is available at our [**GitHub repository**](https://github.com/rhao-hur/HCCM).
----
 
 ## Environment Setup
 
