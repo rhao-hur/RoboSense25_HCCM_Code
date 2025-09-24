@@ -130,8 +130,6 @@ class GeoText1652Dataset(BaseDataset):
                     'bboxes': anno['bboxes'],
                     'entity_bboxes': anno.get('entity_bboxes', None),
                     'is_matched': True,
-                    'img_pseudoLabel_path': join_path(self.data_root, "img_seg_labels", f"{idx}.npy"),
-                    'txt_pseudoLabel_path': join_path(self.data_root, "txt_seg_labels", f"{idx}.npy"),
                 }
                 for idx, anno in enumerate(anno_info)
             ]
