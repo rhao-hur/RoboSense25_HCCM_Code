@@ -127,7 +127,8 @@ We provide scripts to train the model on the GeoText1652 dataset. The default co
   ```python
   # Set val_interval to a value greater than max_epochs
   train_cfg = dict(type='EpochBasedTrainLoop', max_epochs=6, val_interval=10) 
-  ```  Then, run the multi-GPU training script (e.g., for 4 GPUs):
+  ```  
+  Then, run the multi-GPU training script (e.g., for 4 GPUs):
   ```bash
   bash tools/dist_train.sh configs/exp/xvlm_1xb24_hccm_geotext1652.py 4
   ```
